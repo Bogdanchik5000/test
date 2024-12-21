@@ -1,0 +1,18 @@
+.footer {
+  background-color: #262626;
+}
+
+.footerContainer {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.addIcon {
+  background-color: #02a46d;
+  padding: 15px;
+  border-radius: 50%;
+  display: flex;
+  transform: translateY(-60%);
+}

@@ -1,0 +1,18 @@
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 15px;
+}
+
+.headerTitle {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.profileLogo {
+  background-color: white;
+  border-radius: 50%;
+  height: 44px;
+  width: 44px;
+}

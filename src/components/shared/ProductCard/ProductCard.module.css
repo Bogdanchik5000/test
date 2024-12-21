@@ -1,0 +1,92 @@
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.imgContainer {
+  margin-bottom: 10px;
+}
+
+.img {
+  object-fit: cover;
+}
+
+.cardTitle {
+  font-size: 7px;
+  margin-bottom: 10px;
+  margin-bottom: 23px;
+}
+
+.btn {
+  font-size: 7px;
+  font-weight: 400;
+  border-radius: 2px;
+  font-family: "Benzin-Medium";
+}
+
+/* ------ Modal ------ */
+.modal {
+  position: absolute;
+  left: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #313131;
+  border-radius: 16px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  backdrop-filter: blur(6px);
+}
+
+.modalContainer {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.modalTop {
+  display: flex;
+  gap: 0 13px;
+  height: 113px;
+  margin-bottom: 30px;
+}
+
+.modalImgContainer {
+  width: 65%;
+}
+
+.modalImgContainer img {
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.modalInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 15px 0;
+}
+
+.modalPrice {
+  align-self: flex-start;
+  border-radius: 2px;
+}
+
+.modalValues {
+  display: flex;
+  flex-direction: column;
+  gap: 5px 0;
+}
+
+.modalBtnEdit {
+  align-self: flex-end;
+  border: none;
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 2px;
+}

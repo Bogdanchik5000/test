@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "Benzin-Medium";
+  src: url("/fonts/Benzin/benzin-medium.eot");
+  src: url("/fonts/Benzin/benzin-medium.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/Benzin/benzin-medium.woff2") format("woff2"),
+    url("/fonts/Benzin/benzin-medium.woff") format("woff"),
+    url("/fonts/Benzin/benzin-medium.ttf") format("truetype"),
+    url("/fonts/Benzin/benzin-medium.svg#benzin-medium") format("svg");
+}
+
+@font-face {
+  font-family: "Benzin-ExtraBold";
+  src: url("/fonts/Benzin/benzin-extrabold.eot");
+  src: url("/fonts/Benzin/benzin-extrabold.eot?#iefix")
+      format("embedded-opentype"),
+    url("/fonts/Benzin/benzin-extrabold.woff2") format("woff2"),
+    url("/fonts/Benzin/benzin-extrabold.woff") format("woff"),
+    url("/fonts/Benzin/benzin-extrabold.ttf") format("truetype"),
+    url("/fonts/Benzin/benzin-extrabold.svg#benzin-extrabold") format("svg");
+}
+
+@font-face {
+  font-family: "Benzin-Regular";
+  src: url("/fonts/Benzin/benzin-regular.eot");
+  src: url("/fonts/Benzin/benzin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("/fonts/Benzin/benzin-regular.woff2") format("woff2"),
+    url("/fonts/Benzin/benzin-regular.woff") format("woff"),
+    url("/fonts/Benzin/benzin-regular.ttf") format("truetype"),
+    url("/fonts/Benzin/benzin-regular.svg#benzin-regular") format("svg");
+}
