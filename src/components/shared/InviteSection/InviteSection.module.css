@@ -1,0 +1,24 @@
+.section {
+  background-image: linear-gradient(180deg, #37b0c3 0%, #162566 100%);
+  margin: 200px 0 100px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 50px;
+}
+
+.img {
+  margin-top: -100px;
+  width: 50%;
+  object-fit: cover;
+}
+
+.textContent {
+  display: flex;
+  flex-direction: column;
+  gap: 20px 0;
+  text-align: end;
+}

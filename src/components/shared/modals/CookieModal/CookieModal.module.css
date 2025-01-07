@@ -1,0 +1,43 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+}
+
+.modal {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+}
+
+.content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px 0;
+  color: black;
+}
+
+.btnsGroup {
+  align-self: flex-end;
+  display: flex;
+  align-items: center;
+  gap: 0 15px;
+}
+
+.btn {
+  cursor: pointer;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  color: white;
+}
+
+.btn.accept {
+  background-color: green;
+}
+
+.btn.reject {
+  background-color: red;
+}

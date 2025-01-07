@@ -1,0 +1,18 @@
+.content {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.img {
+  width: 69px;
+  height: 69px;
+}
+
+.navItem {
+  color: white;
+  padding: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+}

@@ -1,0 +1,24 @@
+.section {
+  background-image: url("/game-section-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 100px 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px 0;
+  text-align: center;
+}
+
+.btn {
+  background-image: linear-gradient(180deg, #39b7c8 0%, #131b5e 100%);
+  color: white;
+  font-size: 21px;
+  font-weight: 700;
+  padding: 12px 24px;
+  width: 50%;
+  align-self: center;
+}
